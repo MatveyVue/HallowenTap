@@ -111,7 +111,7 @@ body {
         userId = localStorage.getItem('userId');
       } else {
         // Запрашиваем Telegram ID пользователя (например, с помощью API Telegram)
-        userId = prompt("Введите свой Telegram ID:", "");
+        userId = prompt("Введите свой Telegram User:", "");
         localStorage.setItem('userId', userId);
       }
       return userId;
